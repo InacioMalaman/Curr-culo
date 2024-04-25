@@ -1,0 +1,76 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+h1 {
+    margin: 0;
+}
+
+hr {
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.Dados, .preten, .formacao, .hist, .informacoes, .cursos {
+    background-color: #fff;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.5s ease; 
+}
+
+h2 {
+    color: #333;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+header {
+    text-align: center; 
+    background-color: #2c3e50;
+    color: #fff;
+    padding: 20px 0;
+}
+.foto {
+    max-width: 200px; 
+    border-radius: 50%; 
+    transition: transform 0.5s ease; 
+    display: block; 
+    margin: 0 auto; 
+}
+
+.foto:hover {
+    transform: scale(1.1); 
+}
+
+.Dados:hover, .preten:hover, .formacao:hover, .hist:hover, .informacoes:hover, .cursos:hover {
+    transform: scale(1.02); 
+}
+
+
+
